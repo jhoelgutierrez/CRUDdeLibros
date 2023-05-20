@@ -2,7 +2,7 @@
 
             <div class="jumbotron">
                 <h1 class="display-3">Bienvenidos</h1>
-                <p class="lead">Pagina hecha en PHP</p>
+                <p class="lead">Esta e</p>
                 <hr class="my-2">
                 <p>More info</p>
                 <p class="lead">
