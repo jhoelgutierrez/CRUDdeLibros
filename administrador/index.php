@@ -5,7 +5,7 @@ if($_POST){
         
         $_SESSION["usuario"]="ok";
         $_SESSION["nombreUsuario"]="jhoel";
-        header("location:inicio.php");
+        header("Location:./seccion/inicio.php");
     }
     else{
       $mensajeerror="el usuario o contraseña son incorrectos";

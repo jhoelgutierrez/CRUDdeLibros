@@ -24,11 +24,12 @@ else{
     <?php $url="http://".$_SERVER["HTTP_HOST"]."/sitioweb" ?>
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
-              <a class="nav-item nav-link active" href="<?php echo $url ?>/administrador/inicio.php">Administrador</a>
-              <a class="nav-item nav-link" href="<?php echo $url ?>/administrador/inicio.php">Inicio</a>
+              <a class="nav-item nav-link active" href="<?php echo $url ?>/administrador/seccion/inicio.php"><img src="../../img/libros.png" width="50"  alt=""></a>
+              <a class="nav-item nav-link" href="<?php echo $url ?>/administrador/seccion/inicio.php">Inicio</a>
               <a class="nav-item nav-link" href="<?php echo $url ?>/administrador/seccion/libros.php">Libros</a>
-              <a class="nav-item nav-link" href="<?php echo $url ?>/administrador/seccion/cerrar.php">Cerrar</a>
               <a class="nav-item nav-link" href="<?php echo $url ?>">Visitar Sitio</a>
+              <a class="nav-item nav-link" href="<?php echo $url ?>/administrador/seccion/cerrar.php">Cerrar</a>
+              
         </div>
     </nav>
     <div class="container">
